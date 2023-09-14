@@ -1,0 +1,49 @@
+
+div.Container{
+    width: 588px;
+    background-color:rgba(252, 252, 252, 1);
+    margin: 142px;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+div.type_color{
+    background-color: rgba(255, 213, 22, 1);
+    width: -webkit-fill-available;
+    padding: 8px;
+    border-radius: 8px;
+}
+
+.Container p{
+    text-align: center;
+    color: rgba(53, 86, 59, 1);
+    font-size: 50px;
+}
+
+.Container input{
+    margin: 8px;
+    width: auto;
+    height: 80px;
+    background-color: rgba(58, 82, 94, 1);
+    border: 0;
+    border-radius: 8px;
+    color: rgba(162, 203, 225, 1);
+    font-size: 24px;
+    font-family: 'Snowstorm', sans-serif;
+    outline: none;
+}
+
+button{
+    background-color: rgba(46, 130, 193, 1);
+    width: 112px;
+    font-family: 'Snowstorm', sans-serif;
+    color: rgba(255, 255, 255, 1);
+    display: flex;
+}
+
+button img{
+    width: 28px;
+    margin-right: 10px;
+}

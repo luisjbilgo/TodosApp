@@ -1,0 +1,31 @@
+.Phonebackground {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.PhoneMockup {
+    position: relative;
+    max-width: 80%;
+}
+
+.PhoneMockup img {
+    display: block;
+    width: 443px;
+}
+
+.PhoneContent {
+    position: absolute;
+    top: 20%;
+    overflow: hidden;
+    background-color: rgba(171, 217, 178, 1);
+    width: 421px;
+    margin: -90px 13px 0;
+    height: 659px;
+}
+
+
+.PhoneContent img{
+    width: 50px;
+}

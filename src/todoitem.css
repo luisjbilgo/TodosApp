@@ -1,0 +1,74 @@
+@import url('https://fonts.cdnfonts.com/css/snowstorm');
+
+li{
+    width: 343px;
+    display: flex;
+    font-family: 'Snowstorm', sans-serif;
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 4px;
+    margin-bottom: 8px;
+}
+
+div.typecolor{
+    background-color: rgba(255, 213, 22, 1);
+    width: 12px;
+    border-radius: 4px;
+}
+
+div.tasktext{
+    display: flex;
+    margin: 0 0 8px;
+}
+
+.contenido{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.tasktext p {
+    margin: 0;
+}
+
+container p{
+    color: rgba(53, 86, 59, 1);
+    margin: 8px 0 0 ;
+}
+
+.tasktext p#hastag{
+    color: rgba(66, 143, 152, 1);
+    margin-left: 12px;
+}
+
+input{
+    margin: 8px;
+    width: 16px;
+}
+
+input:checked{
+    accent-color: rgba(53, 86, 59, 1);
+}
+
+.contenido-p-completed{
+    text-decoration: line-through;
+}
+
+.SeparateButton{
+    display: flex;
+}
+
+.clearbutton{
+    border: none;
+    cursor: pointer;
+    appearance: none;
+    background-color: inherit;
+    width: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.clearbutton img{
+    width: 70px;
+    display: flex;
+    
+}
